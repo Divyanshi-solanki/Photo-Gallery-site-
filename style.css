@@ -1,0 +1,128 @@
+body {
+  background-image: linear-gradient(to right, rgb(242, 154, 245), rgb(18, 41, 144));
+}
+
+h1 {
+  box-shadow: 10px 10px 20px rgb(14, 14, 14);
+  padding: 60px;
+    text-align: center;
+    background-image: linear-gradient(#0532fc,#0a0a0a);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+    text-transform: uppercase;
+    font-size : 50px;
+}
+
+ul {
+    list-style: none;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    padding: 0;
+}
+
+ul li {
+  box-shadow: 10px 10px 20px rgb(14, 14, 14);
+    display: inline-block;
+    background-color: white;
+    padding: 5px;
+    margin: 10px;
+}
+
+ul li img {
+    display: block;
+    width: 400px;
+}
+
+#overlay {
+    background: rgba(0,0,0,0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    padding-top: 5%;
+}
+
+#overlay img {
+    width: 100%;
+    height: auto;
+    border: 10px solid white;
+}
+
+#overlay #closeImg {
+    width: 40px;
+    height: 40px;
+    border: 0;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    z-index: 1;
+}
+
+.container {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+   
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: 1.0s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .8s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .container:hover .image {
+    opacity: 0.3;
+  }
+  
+  .container:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: #64269e;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+  
+.text {
+    background-image: linear-gradient(to right,  rgb(18, 41, 144), rgb(242, 154, 245));
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+  footer {
+    box-shadow: 10px 10px 20px rgb(14, 14, 14);
+    background-color:rgb(254, 254, 254);
+    display: block;
+  }
+  h2 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+}
+  h4 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+}
+
+
